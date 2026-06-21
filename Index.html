@@ -3,332 +3,317 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Club Kerala</title>
+<title>Club Kerala | Your Person on the Ground</title>
 
 <style>
 :root {
-  --bg: #f7f2ea;
-  --paper: #fffaf2;
-  --ink: #2f2a24;
-  --soft: #6f6559;
-  --line: #ded2c3;
-  --accent: #8b5e3c;
-  --accent-dark: #5f3d25;
-  --green: #596f4f;
-  --cream: #efe3d2;
-  --max: 1120px;
+  --navy:#142653;
+  --navy2:#1d3266;
+  --green:#13743a;
+  --gold:#d7ad45;
+  --cream:#f6f4ee;
+  --paper:#ffffff;
+  --ink:#1f2633;
+  --soft:#697386;
+  --line:#dfe4ea;
+  --max:1120px;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+* { box-sizing:border-box; margin:0; padding:0; }
 
 body {
-  font-family: Georgia, "Times New Roman", serif;
-  background: var(--bg);
-  color: var(--ink);
-  line-height: 1.6;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  background:var(--cream);
+  color:var(--ink);
+  line-height:1.6;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+h1,h2,h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-weight:500;
+  line-height:1.08;
 }
+
+a { text-decoration:none; color:inherit; }
 
 header {
-  padding: 22px 24px;
-  border-bottom: 1px solid var(--line);
-  background: rgba(255, 250, 242, 0.88);
-  position: sticky;
-  top: 0;
-  z-index: 10;
-  backdrop-filter: blur(8px);
+  background:var(--navy);
+  color:white;
+  padding:18px 24px;
 }
 
 .nav {
-  max-width: var(--max);
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 18px;
+  max-width:var(--max);
+  margin:auto;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:20px;
 }
 
 .logo {
-  font-size: 1.35rem;
-  letter-spacing: 0.04em;
-  font-weight: 600;
+  font-family:Georgia, serif;
+  font-size:1.45rem;
+  letter-spacing:.02em;
 }
 
-.nav-links {
-  display: flex;
-  gap: 22px;
-  font-family: Arial, sans-serif;
-  font-size: 0.92rem;
-  color: var(--soft);
+.nav a {
+  font-size:.92rem;
+  opacity:.86;
+  margin-left:18px;
 }
 
-.nav-links a:hover {
-  color: var(--ink);
-}
-
-.cta-small {
-  background: var(--ink);
-  color: #fff;
-  padding: 10px 18px;
-  border-radius: 999px;
-  font-family: Arial, sans-serif;
-  font-size: 0.9rem;
+.nav .button {
+  background:var(--green);
+  opacity:1;
+  padding:10px 16px;
+  border-radius:8px;
 }
 
 .hero {
-  max-width: var(--max);
-  margin: auto;
-  padding: 86px 24px 70px;
-  display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 48px;
-  align-items: center;
+  background:linear-gradient(135deg,var(--navy),var(--navy2));
+  color:white;
+  padding:82px 24px 90px;
+}
+
+.hero-inner {
+  max-width:var(--max);
+  margin:auto;
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  gap:48px;
+  align-items:center;
 }
 
 .kicker {
-  font-family: Arial, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.16em;
-  color: var(--green);
-  font-size: 0.78rem;
-  margin-bottom: 18px;
+  color:var(--gold);
+  text-transform:uppercase;
+  letter-spacing:.16em;
+  font-weight:700;
+  font-size:.8rem;
+  margin-bottom:18px;
 }
 
 h1 {
-  font-size: clamp(2.8rem, 6vw, 5.8rem);
-  line-height: 0.95;
-  letter-spacing: -0.04em;
-  margin-bottom: 26px;
-  font-weight: 500;
+  font-size:clamp(3rem,7vw,6.4rem);
+  margin-bottom:26px;
 }
 
 .hero p {
-  font-size: 1.24rem;
-  max-width: 610px;
-  color: var(--soft);
-  margin-bottom: 32px;
+  color:#d7deec;
+  font-size:1.22rem;
+  max-width:650px;
+  margin-bottom:32px;
 }
 
 .actions {
-  display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
 }
 
 .btn {
-  display: inline-block;
-  padding: 14px 24px;
-  border-radius: 999px;
-  font-family: Arial, sans-serif;
-  font-size: 0.95rem;
+  display:inline-block;
+  padding:14px 22px;
+  border-radius:8px;
+  font-weight:700;
 }
 
-.btn-primary {
-  background: var(--accent-dark);
-  color: #fff;
+.primary { background:var(--green); color:white; }
+.secondary { border:1px solid rgba(255,255,255,.45); color:white; }
+
+.trust-card {
+  background:white;
+  color:var(--ink);
+  border-radius:24px;
+  padding:30px;
+  box-shadow:0 22px 60px rgba(0,0,0,.18);
 }
 
-.btn-secondary {
-  border: 1px solid var(--accent);
-  color: var(--accent-dark);
+.trust-card h3 {
+  font-size:1.7rem;
+  margin-bottom:16px;
 }
 
-.hero-card {
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 28px;
-  padding: 28px;
-  box-shadow: 0 20px 50px rgba(47, 42, 36, 0.08);
+.trust-card p {
+  color:var(--soft);
+  font-size:1rem;
+  margin-bottom:20px;
 }
 
-.hero-card img {
-  width: 100%;
-  height: 340px;
-  object-fit: cover;
-  border-radius: 22px;
-  margin-bottom: 22px;
-  filter: saturate(0.86);
+.check {
+  display:grid;
+  gap:12px;
+  color:var(--ink);
 }
 
-.hero-card h3 {
-  font-size: 1.35rem;
-  margin-bottom: 8px;
-}
-
-.hero-card p {
-  font-size: 1rem;
-  margin: 0;
+.check div {
+  border-top:1px solid var(--line);
+  padding-top:12px;
 }
 
 section {
-  max-width: var(--max);
-  margin: auto;
-  padding: 56px 24px;
+  max-width:var(--max);
+  margin:auto;
+  padding:70px 24px;
 }
 
 .intro {
-  border-top: 1px solid var(--line);
-  border-bottom: 1px solid var(--line);
+  text-align:center;
+  max-width:850px;
 }
 
-.intro-inner {
-  max-width: 760px;
-}
-
-.intro h2,
-.section-title {
-  font-size: clamp(2rem, 4vw, 3.4rem);
-  line-height: 1.05;
-  font-weight: 500;
-  margin-bottom: 22px;
-  letter-spacing: -0.03em;
+.intro h2 {
+  font-size:clamp(2.1rem,4vw,3.5rem);
+  margin-bottom:20px;
 }
 
 .intro p {
-  font-size: 1.18rem;
-  color: var(--soft);
+  color:var(--soft);
+  font-size:1.16rem;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
 }
 
 .card {
-  background: var(--paper);
-  border: 1px solid var(--line);
-  border-radius: 24px;
-  padding: 28px;
+  background:var(--paper);
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:28px;
 }
 
 .card span {
-  display: block;
-  font-family: Arial, sans-serif;
-  color: var(--green);
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.13em;
-  margin-bottom: 18px;
+  color:var(--green);
+  text-transform:uppercase;
+  letter-spacing:.14em;
+  font-weight:700;
+  font-size:.78rem;
 }
 
 .card h3 {
-  font-size: 1.45rem;
-  margin-bottom: 12px;
-  font-weight: 500;
+  font-size:1.6rem;
+  margin:14px 0 12px;
 }
 
-.card p {
-  color: var(--soft);
-  font-size: 1rem;
+.card p, .card li {
+  color:var(--soft);
+}
+
+.card ul {
+  margin-top:16px;
+  padding-left:18px;
 }
 
 .band {
-  background: var(--cream);
-  border-radius: 34px;
-  padding: 44px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 36px;
-  align-items: center;
+  background:var(--navy);
+  color:white;
+  border-radius:30px;
+  padding:44px;
+  display:grid;
+  grid-template-columns:.9fr 1.1fr;
+  gap:34px;
 }
 
 .band h2 {
-  font-size: clamp(2rem, 4vw, 3.6rem);
-  line-height: 1.05;
-  font-weight: 500;
+  font-size:clamp(2rem,4vw,3.4rem);
 }
 
 .band p {
-  color: var(--soft);
-  font-size: 1.1rem;
+  color:#d7deec;
+  margin-top:18px;
 }
 
-.list {
-  display: grid;
-  gap: 14px;
-  font-family: Arial, sans-serif;
+.steps {
+  display:grid;
+  gap:16px;
 }
 
-.list div {
-  background: rgba(255,255,255,0.45);
-  padding: 16px 18px;
-  border-radius: 16px;
+.step {
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.12);
+  border-radius:18px;
+  padding:22px;
 }
 
-.join {
-  text-align: center;
-  padding-bottom: 86px;
+.step strong {
+  color:var(--gold);
 }
 
-.join-box {
-  background: var(--ink);
-  color: #fff;
-  border-radius: 34px;
-  padding: 58px 28px;
+.membership {
+  background:white;
+  border:1px solid var(--line);
+  border-radius:28px;
+  padding:38px;
+  text-align:center;
 }
 
-.join-box h2 {
-  font-size: clamp(2.2rem, 5vw, 4rem);
-  line-height: 1;
-  font-weight: 500;
-  margin-bottom: 18px;
+.membership h2 {
+  font-size:clamp(2.2rem,5vw,4rem);
+  margin-bottom:18px;
 }
 
-.join-box p {
-  color: #d8cec2;
-  max-width: 620px;
-  margin: 0 auto 28px;
-  font-size: 1.1rem;
+.membership p {
+  max-width:720px;
+  margin:0 auto 26px;
+  color:var(--soft);
 }
 
-.join-box .btn {
-  background: #fff;
-  color: var(--ink);
+.features {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+  margin:30px 0;
+  text-align:left;
+}
+
+.feature {
+  background:var(--cream);
+  padding:18px;
+  border-radius:16px;
+  color:var(--soft);
+}
+
+.contact {
+  background:var(--navy);
+  color:white;
+  text-align:center;
+  border-radius:30px;
+  padding:54px 28px;
+}
+
+.contact h2 {
+  font-size:clamp(2.2rem,5vw,4rem);
+  margin-bottom:18px;
+}
+
+.contact p {
+  color:#d7deec;
+  max-width:640px;
+  margin:0 auto 28px;
 }
 
 footer {
-  border-top: 1px solid var(--line);
-  padding: 28px 24px;
-  color: var(--soft);
-  font-family: Arial, sans-serif;
-  font-size: 0.9rem;
+  text-align:center;
+  color:var(--soft);
+  padding:32px 24px;
+  font-size:.92rem;
 }
 
-.footer-inner {
-  max-width: var(--max);
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  gap: 18px;
-  flex-wrap: wrap;
-}
+@media(max-width:850px) {
+  .hero-inner, .grid, .band, .features {
+    grid-template-columns:1fr;
+  }
 
-@media (max-width: 850px) {
+  .nav nav {
+    display:none;
+  }
+
   .hero {
-    grid-template-columns: 1fr;
-    padding-top: 56px;
-  }
-
-  .grid,
-  .band {
-    grid-template-columns: 1fr;
-  }
-
-  .nav-links {
-    display: none;
-  }
-
-  .hero-card img {
-    height: 260px;
+    padding-top:58px;
   }
 }
 </style>
@@ -339,121 +324,202 @@ footer {
 <header>
   <div class="nav">
     <div class="logo">Club Kerala</div>
-    <nav class="nav-links">
-      <a href="#about">About</a>
-      <a href="#join">Join</a>
-      <a href="#explore">Explore</a>
-      <a href="#visit">Visit</a>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#model">How it works</a>
+      <a href="#connect">Free Connect</a>
+      <a href="#contact" class="button">Book Consultation</a>
     </nav>
-    <a class="cta-small" href="#join">Join Free</a>
   </div>
 </header>
 
 <main>
 
 <section class="hero">
-  <div>
-    <div class="kicker">A relaxed community for Kerala connections</div>
-    <h1>Come in. Find your Kerala circle.</h1>
-    <p>
-      Club Kerala is a simple place to discover people, places, events, stories,
-      food, travel ideas, and small businesses connected to Kerala.
-    </p>
+  <div class="hero-inner">
+    <div>
+      <div class="kicker">For Malayalees living abroad</div>
+      <h1>You left Kerala.<br>Kerala never left you.</h1>
+      <p>
+        Club Kerala is your trusted person on the ground in Kerala.
+        Property, family, legal, financial, eldercare, remembrance and concierge matters,
+        handled through one responsible relationship.
+      </p>
+      <div class="actions">
+        <a href="#contact" class="btn primary">Book a Free Consultation</a>
+        <a href="#services" class="btn secondary">Explore Services</a>
+      </div>
+    </div>
 
-    <div class="actions">
-      <a href="#join" class="btn btn-primary">Join Club Kerala</a>
-      <a href="#explore" class="btn btn-secondary">See what’s inside</a>
+    <div class="trust-card">
+      <h3>One contact. Full picture.</h3>
+      <p>
+        You do not need to explain your Kerala situation again and again
+        to lawyers, CAs, surveyors, caretakers and family contacts.
+      </p>
+      <div class="check">
+        <div>Property and land matters</div>
+        <div>Inheritance, documents and compliance</div>
+        <div>Eldercare, travel, family and remembrance</div>
+        <div>Named relationship manager for premium members</div>
+      </div>
     </div>
   </div>
-
-  <div class="hero-card">
-    <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80" alt="Warm gathering table">
-    <h3>Not a directory. Not just a website.</h3>
-    <p>
-      A friendly starting point for anyone who wants to stay close to Kerala,
-      whether they live here, left here, visit often, or simply love the place.
-    </p>
-  </div>
 </section>
 
-<section class="intro" id="about">
-  <div class="intro-inner">
-    <h2>What is Club Kerala?</h2>
-    <p>
-      It is a community table. You can find events, useful contacts, local
-      recommendations, stories, travel ideas, and people doing interesting work.
-      Start small. Browse, join, list something, or invite a friend.
-    </p>
-  </div>
+<section class="intro">
+  <h2>Kerala matters are easy to postpone. Until they become urgent.</h2>
+  <p>
+    A property remains unchecked. A tax issue is missed. A parent needs help.
+    A document is outdated. A grave is untended. Club Kerala exists for these
+    real situations, where distance creates risk and delay.
+  </p>
 </section>
 
-<section id="explore">
-  <h2 class="section-title">Start with one of these.</h2>
-
+<section id="services">
   <div class="grid">
     <div class="card">
-      <span>01</span>
-      <h3>Discover</h3>
+      <span>Vertical One</span>
+      <h3>Asset Protection Desk</h3>
       <p>
-        Find places, stories, food, events, and experiences worth knowing.
+        Professional handling of property, land, inheritance, documents,
+        tax, FEMA, survey and compliance matters.
       </p>
+      <ul>
+        <li>Property management</li>
+        <li>Land and conversion</li>
+        <li>Inheritance and family settlement</li>
+        <li>NRI financial compliance</li>
+      </ul>
     </div>
 
     <div class="card">
-      <span>02</span>
-      <h3>Connect</h3>
+      <span>Vertical Two</span>
+      <h3>Premium Concierge Desk</h3>
       <p>
-        Meet people, groups, businesses, hosts, makers, and organisers.
+        Personal, family and lifestyle assistance in Kerala, handled
+        discreetly and delivered through vetted local support.
       </p>
+      <ul>
+        <li>Healthcare and eldercare</li>
+        <li>Home management</li>
+        <li>Travel and hospitality</li>
+        <li>Remembrance and sacred care</li>
+      </ul>
     </div>
 
     <div class="card">
-      <span>03</span>
-      <h3>Participate</h3>
+      <span>Premium</span>
+      <h3>The Karyasthan</h3>
       <p>
-        Join events, share updates, list your work, or invite others in.
+        A named person who understands your full Kerala picture and coordinates
+        the right specialist at the right time.
+      </p>
+      <ul>
+        <li>One relationship</li>
+        <li>One complete asset picture</li>
+        <li>One accountable outcome</li>
+        <li>Regular portfolio reports</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="model">
+  <div class="band">
+    <div>
+      <div class="kicker">How it works</div>
+      <h2>Three channels. One standard.</h2>
+      <p>
+        Start free. Use task-based services when needed. Upgrade to a
+        named Karyasthan when your Kerala responsibilities need year-round care.
       </p>
     </div>
+
+    <div class="steps">
+      <div class="step">
+        <strong>01. Kerala Connect</strong><br>
+        Free starting point with consultation, basic tools and access.
+      </div>
+      <div class="step">
+        <strong>02. Asset or Concierge Task</strong><br>
+        Submit a specific matter. Receive scope, quote and delivery plan.
+      </div>
+      <div class="step">
+        <strong>03. Karyasthan Package</strong><br>
+        A named relationship manager oversees your full Kerala portfolio.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="connect">
+  <div class="membership">
+    <h2>Start with Kerala Connect.</h2>
+    <p>
+      Free membership gives you a safe first step into Club Kerala.
+      No charge. No obligation. Begin with one conversation.
+    </p>
+
+    <div class="features">
+      <div class="feature">One free 30-minute consultation</div>
+      <div class="feature">Kerala asset register for three assets</div>
+      <div class="feature">Fair value and FEMA screening tools</div>
+      <div class="feature">Pre-sale document checklist</div>
+      <div class="feature">Monthly regulatory alerts</div>
+      <div class="feature">Concierge task access</div>
+    </div>
+
+    <a href="#contact" class="btn primary">Join Free Kerala Connect</a>
   </div>
 </section>
 
 <section>
-  <div class="band">
-    <div>
-      <h2>Why join?</h2>
+  <div class="grid">
+    <div class="card">
+      <span>Example</span>
+      <h3>Inherited property</h3>
       <p>
-        Because Kerala is easier to enjoy when someone opens the door.
-        Club Kerala helps you begin without noise, clutter, or confusion.
+        Title not transferred. Documents missing. Family members abroad.
+        Club Kerala coordinates the process from document recovery to sale readiness.
       </p>
     </div>
 
-    <div class="list">
-      <div>Get updates on events and gatherings</div>
-      <div>Find Kerala-linked businesses and services</div>
-      <div>Share your own project, event, or listing</div>
-      <div>Stay connected from anywhere</div>
+    <div class="card">
+      <span>Example</span>
+      <h3>Eldercare emergency</h3>
+      <p>
+        A parent is alone in Kerala and needs immediate help.
+        Club Kerala arranges ground coordination, updates and ongoing care support.
+      </p>
+    </div>
+
+    <div class="card">
+      <span>Example</span>
+      <h3>Remembrance care</h3>
+      <p>
+        Graves, anniversaries and family obligations are handled respectfully
+        when distance makes personal presence difficult.
+      </p>
     </div>
   </div>
 </section>
 
-<section class="join" id="join">
-  <div class="join-box">
-    <h2>Join the circle.</h2>
+<section id="contact">
+  <div class="contact">
+    <h2>Start the conversation.</h2>
     <p>
-      Sign up free. Browse first. Add your profile or listing when ready.
-      No pressure. Just a good place to begin.
+      Tell Club Kerala what needs attention. The first conversation is free,
+      private and without obligation.
     </p>
-    <a href="#" class="btn">Join Club Kerala</a>
+    <a href="mailto:founder@clubkerala.com" class="btn primary">Email founder@clubkerala.com</a>
   </div>
 </section>
 
 </main>
 
-<footer id="visit">
-  <div class="footer-inner">
-    <div>Club Kerala</div>
-    <div>Discover. Connect. Participate.</div>
-  </div>
+<footer>
+  Club Kerala · Bridging That Distance · www.clubkerala.com
 </footer>
 
 </body>

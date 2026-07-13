@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roast Days | KoffyKraft</title>
+  <meta name="description" content="KoffyKraft roast days and roast-to-order practice.">
+  <link rel="stylesheet" href="../../../assets/site/minimal.css">
+  <link rel="stylesheet" href="../../../assets/site/coffee-content.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="../../../" class="site-logo">KoffyKraft</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav" onclick="toggleMenu(this)">☰</button>
+      <nav class="site-nav" id="mainNav" aria-label="Primary">
+        <a href="../buy/">Buy</a>
+        <a href="../browse/">Coffees</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="breadcrumb">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <a href="../../../">Home</a>
+        <span>/</span>
+        <a href="../../">Coffee</a>
+        <span>/</span>
+        <a href="../">Roastery</a>
+        <span>/</span>
+        <span>Roast Days</span>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Roast Days</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="coffee-panel">
+          <figure>
+            <img src="../../../assets/site/home-roaster-detail.jpg" alt="KoffyKraft roaster detail">
+          </figure>
+          <div>
+            <p class="small-note">Orders are grouped before roasting when possible. The offer may be two, three, or four coffees at a time, depending on green stock and roast day capacity.</p>
+            <nav class="door-list" aria-label="Roast day doors">
+              <a class="door" href="../buy/">Buy</a>
+              <a class="door" href="../browse/">Green Stock</a>
+              <a class="door" href="../../../training/quiet/brewing/">Brew</a>
+              <a class="door" href="../">Roastery</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Roast Days</p>
+      <a href="../../../">Home</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu(btn) {
+      var nav = document.getElementById('mainNav');
+      var open = nav.classList.toggle('active');
+      if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+  </script>
+</body>
+</html>

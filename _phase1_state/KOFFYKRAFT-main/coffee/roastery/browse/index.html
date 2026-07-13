@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Browse Coffees | KoffyKraft</title>
+  <meta name="description" content="Browse KoffyKraft's current coffee selection.">
+  <link rel="stylesheet" href="../../../assets/site/minimal.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="../../../" class="site-logo">KoffyKraft</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+      <nav class="site-nav" id="mainNav">
+        <a href="../../../coffee/" aria-current="page">Coffee</a>
+        <a href="../../../buna/">Buna</a>
+        <a href="../../../estate/">Estate</a>
+        <a href="../../../training/quiet/">Learn</a>
+        <a href="../buy/">Buy</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <a href="../../../">Home</a>
+        <span>/</span>
+        <a href="../../">Coffee</a>
+        <span>/</span>
+        <a href="../">Roastery</a>
+        <span>/</span>
+        <span>Browse</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Page Title -->
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Coffees</h1>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="section">
+      <div class="container">
+        <p class="text-center text-muted mb-3">Current selection updated based on roast days</p>
+        
+        <nav class="content-grid">
+          <a href="../buy/" class="content-card">
+            <h3>Purchase</h3>
+            <p>Order our roasted coffees</p>
+          </a>
+          <a href="../roast-days/" class="content-card">
+            <h3>Roast Schedule</h3>
+            <p>When we roast</p>
+          </a>
+          <a href="../../../training/quiet/brewing/" class="content-card">
+            <h3>Brewing</h3>
+            <p>How to prepare</p>
+          </a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Browse Coffees</p>
+      <a href="../../../">Home</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mainNav').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

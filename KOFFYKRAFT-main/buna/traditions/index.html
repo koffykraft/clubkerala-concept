@@ -3,21 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Buna Traditions | KoffyKraft</title>
-  <meta name="description" content="Coffee leaf beverage cultural traditions and history.">
+  <title>Traditions | KoffyKraft</title>
+  <meta name="description" content="Cultural coffee leaf beverage traditions in the Buna library.">
   <link rel="stylesheet" href="../../assets/site/minimal.css">
+  <link rel="stylesheet" href="../../assets/site/buna-content.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <a href="../../" class="site-logo">KoffyKraft</a>
-      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
-      <nav class="site-nav" id="mainNav">
-        <a href="../../coffee/">Coffee</a>
-        <a href="../" aria-current="page">Buna</a>
-        <a href="../../estate/">Estate</a>
-        <a href="../../training/quiet/">Learn</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav" onclick="toggleMenu(this)">☰</button>
+      <nav class="site-nav" id="mainNav" aria-label="Primary">
         <a href="../../coffee/roastery/buy/">Buy</a>
+        <a href="../../coffee/roastery/browse/">Coffees</a>
       </nav>
     </div>
   </header>
@@ -37,28 +35,41 @@
   <main>
     <section class="page-title">
       <div class="container">
-        <h1>Buna Traditions</h1>
-        <p class="text-muted">Cultural practices and history</p>
+        <h1>Traditions</h1>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <p class="text-center text-muted">Exploring the cultural heritage of coffee leaf beverages</p>
+        <div class="buna-panel">
+          <figure>
+            <img src="../../assets/site/sample-leaf-fresh.jpg" alt="Fresh coffee leaves">
+          </figure>
+          <div>
+            <nav class="door-list" aria-label="Traditions doors">
+              <a class="door" href="../brewing/engere/">Engere</a>
+              <a class="door" href="../brewing/chemo/">Chemo</a>
+              <a class="door" href="../brewing/kawa-daun/">Kawa Daun</a>
+              <a class="door" href="../brewing/kuti/">Kuti</a>
+            </nav>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>Buna Traditions</p>
+      <p>Traditions</p>
       <a href="../../">Home</a>
     </div>
   </footer>
 
   <script>
-    function toggleMenu() {
-      document.getElementById('mainNav').classList.toggle('active');
+    function toggleMenu(btn) {
+      var nav = document.getElementById('mainNav');
+      var open = nav.classList.toggle('active');
+      if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     }
   </script>
 </body>

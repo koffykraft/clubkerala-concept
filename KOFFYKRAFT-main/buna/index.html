@@ -4,26 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Buna | KoffyKraft</title>
-  <meta name="description" content="Buna: coffee leaf beverage, cultural brewing traditions, and methods.">
+  <meta name="description" content="Buna at KoffyKraft: coffee leaf beverage, cultural brewing traditions, methods, learning, and library.">
   <link rel="stylesheet" href="../assets/site/minimal.css">
+  <link rel="stylesheet" href="../assets/site/buna-content.css">
 </head>
 <body>
-  <!-- Header -->
   <header class="site-header">
     <div class="container">
       <a href="../" class="site-logo">KoffyKraft</a>
-      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
-      <nav class="site-nav" id="mainNav">
-        <a href="../coffee/">Coffee</a>
-        <a href="../" aria-current="page">Buna</a>
-        <a href="../estate/">Estate</a>
-        <a href="../training/quiet/">Learn</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav" onclick="toggleMenu(this)">☰</button>
+      <nav class="site-nav" id="mainNav" aria-label="Primary">
         <a href="../coffee/roastery/buy/">Buy</a>
+        <a href="../coffee/roastery/browse/">Coffees</a>
       </nav>
     </div>
   </header>
 
-  <!-- Breadcrumb -->
   <div class="breadcrumb">
     <div class="container">
       <nav aria-label="Breadcrumb">
@@ -34,41 +30,32 @@
     </div>
   </div>
 
-  <!-- Page Title -->
   <main>
     <section class="page-title">
       <div class="container">
         <h1>Buna</h1>
-        <p class="text-muted">Coffee leaf beverage traditions</p>
       </div>
     </section>
 
-    <!-- Content -->
     <section class="section">
       <div class="container">
-        <div class="content-grid">
-          <a href="traditions/" class="content-card">
-            <h3>Traditions</h3>
-            <p>Cultural practices and history</p>
-          </a>
-          <a href="brewing/" class="content-card">
-            <h3>Brewing</h3>
-            <p>Preparation methods and recipes</p>
-          </a>
-          <a href="learn/" class="content-card">
-            <h3>Learn</h3>
-            <p>Understanding coffee leaf</p>
-          </a>
-          <a href="library/" class="content-card">
-            <h3>Library</h3>
-            <p>References and research</p>
-          </a>
+        <div class="buna-panel">
+          <figure>
+            <div class="image-space" aria-hidden="true"></div>
+          </figure>
+          <div>
+            <nav class="door-list" aria-label="Buna doors">
+              <a class="door" href="traditions/">Traditions</a>
+              <a class="door" href="brewing/">Brewing</a>
+              <a class="door" href="learn/">Learn</a>
+              <a class="door" href="library/">Library</a>
+            </nav>
+          </div>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
       <p>Buna</p>
@@ -77,8 +64,10 @@
   </footer>
 
   <script>
-    function toggleMenu() {
-      document.getElementById('mainNav').classList.toggle('active');
+    function toggleMenu(btn) {
+      var nav = document.getElementById('mainNav');
+      var open = nav.classList.toggle('active');
+      if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     }
   </script>
 </body>

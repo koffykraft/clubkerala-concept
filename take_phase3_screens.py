@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+"""Phase 3 before/after screenshots — 5 Buna pages, desktop + mobile."""
+from pathlib import Path
+from playwright.sync_api import sync_playwright
+
+OUT = Path("/app/KOFFYKRAFT-main/docs/phase-3-screenshots")
+OUT.mkdir(parents=True, exist_ok=True)
+
+PAGES = [
+    ("buna/",             "buna_landing"),
+    ("buna/traditions/",  "traditions"),
+    ("buna/brewing/",     "brewing"),
+    ("buna/learn/",       "learn"),
+    ("buna/library/",     "library"),
+]
+
+with sync_playwright() as p:
+    browser = p.chromium.launch(headless=True)
+    for viewport, tag in [({"width":1280,"height":900},"desktop"), ({"width":390,"height":780},"mobile")]:
+        ctx = browser.new_context(viewport=viewport, device_scale_factor=1)
+        page = ctx.new_page()
+        for path, slug in PAGES:
+            for stage, port in [("before", 8081), ("after", 8080)]:
+                url = f"http://localhost:{port}/{path}"
+                out = OUT / f"{slug}_{stage}_{tag}.png"
+                try:
+                    page.goto(url, wait_until="domcontentloaded", timeout=8000)
+                    page.wait_for_timeout(400)
+                    page.screenshot(path=str(out), full_page=True, type="png")
+                except Exception as e:
+                    print(f"  FAIL {out.name}: {e}")
+        ctx.close()
+    browser.close()
+print(f"{len(list(OUT.iterdir()))} screenshots in {OUT}")

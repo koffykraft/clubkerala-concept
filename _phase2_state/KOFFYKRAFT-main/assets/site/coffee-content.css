@@ -1,0 +1,144 @@
+/*
+ * KoffyKraft — Coffee section content-support styles.
+ * Loaded alongside minimal.css only on the five pages of the Coffee section.
+ * Provides support for the original semantic markup (.small-note, .door-list, .door,
+ * .stock-list, .stock-item, .image-space) so the original content renders correctly
+ * inside the current minimalist chrome. Does not override any minimal.css rule.
+ * Added in Phase 2 (content restoration).
+ */
+
+.small-note {
+  max-width: 60ch;
+  margin: 0 0 2rem;
+  color: #333;
+  font-size: clamp(1rem, 1.4vw, 1.125rem);
+  line-height: 1.65;
+}
+
+/* Vertical stack of door links, hairline separators, uppercase small text. */
+.door-list {
+  display: grid;
+  gap: 1px;
+  background: #e0e0e0;
+  margin: 2rem 0 0;
+  border: 1px solid #e0e0e0;
+}
+
+.door-list .door {
+  min-height: 80px;
+  display: flex;
+  align-items: flex-end;
+  padding: 1.5rem;
+  background: #fff;
+  color: #000;
+  font-size: 0.8125rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.door-list .door:hover,
+.door-list .door:focus-visible {
+  background: #000;
+  color: #fff;
+  opacity: 1;
+  outline: none;
+}
+
+/* Coffee inventory list. Same hairline card language, but each card holds
+   a tag, a name, an optional description paragraph, and an external source link. */
+.stock-list {
+  display: grid;
+  gap: 1px;
+  background: #e0e0e0;
+  margin: 0 0 2.5rem;
+  border: 1px solid #e0e0e0;
+}
+
+.stock-item {
+  background: #fff;
+  padding: 1.75rem;
+  display: grid;
+  gap: 0.4rem;
+  align-content: start;
+}
+
+.stock-item > span {
+  font-size: 0.75rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.stock-item strong {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
+}
+
+.stock-item p {
+  margin: 0.25rem 0 0;
+  color: #333;
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  max-width: none;
+}
+
+.stock-item a {
+  margin-top: 0.6rem;
+  font-size: 0.8125rem;
+  letter-spacing: 0.03em;
+  color: #000;
+  border-bottom: 1px solid #cfcfcf;
+  padding-bottom: 2px;
+  align-self: start;
+  width: fit-content;
+  transition: border-color 0.2s ease;
+}
+
+.stock-item a:hover,
+.stock-item a:focus-visible {
+  border-color: #000;
+  opacity: 1;
+  outline: none;
+}
+
+/* Placeholder tile the original uses to hold visual rhythm when no photo is present. */
+.image-space {
+  aspect-ratio: 4 / 5;
+  width: 100%;
+  background: #f5f5f5;
+  border: 1px solid #e0e0e0;
+}
+
+/* Two-column arrangement of image (or placeholder) + content column,
+   matching the original .passage > .panel geometry inside the minimalist container. */
+.coffee-panel {
+  display: grid;
+  grid-template-columns: minmax(220px, 0.4fr) minmax(0, 0.6fr);
+  gap: clamp(2rem, 5vw, 4rem);
+  align-items: start;
+}
+
+.coffee-panel figure {
+  margin: 0;
+}
+
+.coffee-panel figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .coffee-panel {
+    grid-template-columns: 1fr;
+  }
+  .door-list .door {
+    min-height: 72px;
+    padding: 1.25rem;
+    letter-spacing: 0.12em;
+  }
+}

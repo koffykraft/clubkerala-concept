@@ -3,75 +3,80 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brewing | KoffyKraft</title>
-  <meta name="description" content="Buna brewing traditions and preparation papers.">
-  <link rel="stylesheet" href="../../assets/site/passage.css">
+  <title>Buna Brewing | KoffyKraft</title>
+  <meta name="description" content="Coffee leaf brewing methods and preparation guides.">
+  <link rel="stylesheet" href="../../assets/site/minimal.css">
 </head>
 <body>
-  <header class="top">
-    <a class="brand" href="../../">KoffyKraft</a>
-    <a href="../">Buna</a>
+  <header class="site-header">
+    <div class="container">
+      <a href="../../" class="site-logo">KoffyKraft</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+      <nav class="site-nav" id="mainNav">
+        <a href="../../coffee/">Coffee</a>
+        <a href="../" aria-current="page">Buna</a>
+        <a href="../../estate/">Estate</a>
+        <a href="../../training/quiet/">Learn</a>
+        <a href="../../coffee/roastery/buy/">Buy</a>
+      </nav>
+    </div>
   </header>
 
+  <div class="breadcrumb">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <a href="../../">Home</a>
+        <span>/</span>
+        <a href="../">Buna</a>
+        <span>/</span>
+        <span>Brewing</span>
+      </nav>
+    </div>
+  </div>
+
   <main>
-    <section class="room-title">
-      <h1>Brewing</h1>
+    <section class="page-title">
+      <div class="container">
+        <h1>Buna Brewing</h1>
+        <p class="text-muted">Preparation methods and recipes</p>
+      </div>
     </section>
 
-    <section class="passage">
-      <div class="panel">
-        <figure>
-          <img src="../../assets/site/brewing-mark.svg" alt="Brewing mark">
-        </figure>
-        <div>
-          <nav class="door-list" aria-label="Brewing doors">
-            <a class="door" href="engere/">Engere</a>
-            <a class="door" href="chemo/">Chemo</a>
-            <a class="door" href="kawa-daun/">Kawa Daun</a>
-            <a class="door" href="kuti/">Kuti</a>
-            <a class="door" href="preparation-studies/">Preparation Studies</a>
-          </nav>
+    <section class="section">
+      <div class="container">
+        <div class="content-grid">
+          <a href="chemo/" class="content-card">
+            <h3>Chemo</h3>
+            <p>Ethiopian style preparation</p>
+          </a>
+          <a href="engere/" class="content-card">
+            <h3>Engere</h3>
+            <p>Traditional method</p>
+          </a>
+          <a href="kawa-daun/" class="content-card">
+            <h3>Kawa Daun</h3>
+            <p>Indonesian coffee leaf tea</p>
+          </a>
+          <a href="kuti/" class="content-card">
+            <h3>Kuti</h3>
+            <p>Regional preparation</p>
+          </a>
         </div>
-      </div>
-
-      <div class="stock-list">
-        <article class="stock-item">
-          <span>Milk brew</span>
-          <strong>Engere</strong>
-          <p>Coffee leaf brew strained, then combined with fresh milk. Documented in South Ethiopia.</p>
-          <a href="engere/">Open</a>
-        </article>
-        <article class="stock-item">
-          <span>Leaf and herbs</span>
-          <strong>Chemo</strong>
-          <p>Coffee leaves prepared with local aromatics. Documented in Tepi, Southwestern Ethiopia.</p>
-          <a href="chemo/">Open</a>
-        </article>
-        <article class="stock-item">
-          <span>Smoke dried</span>
-          <strong>Kawa Daun</strong>
-          <p>Smoked coffee leaf decoction from the Minangkabau highlands of West Sumatra.</p>
-          <a href="kawa-daun/">Open</a>
-        </article>
-        <article class="stock-item">
-          <span>Fallen leaf</span>
-          <strong>Kuti</strong>
-          <p>Sun-dried mature or fallen coffee leaves, usually prepared by decoction.</p>
-          <a href="kuti/">Open</a>
-        </article>
-        <article class="stock-item">
-          <span>Modern methods</span>
-          <strong>Preparation Studies</strong>
-          <p>Temperature, time, decoction, processing, aroma, and consumer perception.</p>
-          <a href="preparation-studies/">Open</a>
-        </article>
       </div>
     </section>
   </main>
 
-  <footer class="foot">
-    <span>Brewing</span>
-    <a href="../../">Home</a>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Buna Brewing</p>
+      <a href="../../">Home</a>
+    </div>
   </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mainNav').classList.toggle('active');
+    }
+  </script>
 </body>
 </html>

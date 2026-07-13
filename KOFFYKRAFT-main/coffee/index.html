@@ -4,40 +4,86 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Coffee | KoffyKraft</title>
-  <meta name="description" content="KoffyKraft coffee: roastery, learning, notes, photos, and papers.">
-  <link rel="stylesheet" href="../assets/site/passage.css">
+  <meta name="description" content="KoffyKraft coffee: roastery, learning, notes, and resources.">
+  <link rel="stylesheet" href="../assets/site/minimal.css">
 </head>
 <body>
-  <header class="top">
-    <a class="brand" href="../">KoffyKraft</a>
-    <a href="../">Home</a>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="../" class="site-logo">KoffyKraft</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+      <nav class="site-nav" id="mainNav">
+        <a href="../" aria-current="page">Coffee</a>
+        <a href="../buna/">Buna</a>
+        <a href="../estate/">Estate</a>
+        <a href="../training/quiet/">Learn</a>
+        <a href="roastery/buy/">Buy</a>
+      </nav>
+    </div>
   </header>
 
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <a href="../">Home</a>
+        <span>/</span>
+        <span>Coffee</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Page Title -->
   <main>
-    <section class="room-title">
-      <h1>Coffee</h1>
+    <section class="page-title">
+      <div class="container">
+        <h1>Coffee</h1>
+      </div>
     </section>
 
-    <section class="passage">
-      <div class="panel">
-        <figure>
-          <img src="../assets/site/home-beans.jpg" alt="Roasted coffee beans">
-        </figure>
-        <div>
-          <nav class="door-list" aria-label="Coffee doors">
-            <a class="door" href="roastery/">Roastery</a>
-            <a class="door" href="../training/quiet/">Learn</a>
-            <a class="door" href="../training/deeper-dive/">Notes</a>
-            <a class="door" href="../links/">Papers</a>
+    <!-- Content -->
+    <section class="section">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <img src="../assets/site/home-beans.jpg" alt="Roasted coffee beans">
+          </div>
+          <nav class="content-grid">
+            <a href="roastery/" class="content-card">
+              <h3>Roastery</h3>
+              <p>Our roasting process and available coffees</p>
+            </a>
+            <a href="../training/quiet/" class="content-card">
+              <h3>Learn</h3>
+              <p>Coffee brewing and cupping courses</p>
+            </a>
+            <a href="../training/deeper-dive/" class="content-card">
+              <h3>Notes</h3>
+              <p>Detailed brewing and roasting notes</p>
+            </a>
+            <a href="../links/" class="content-card">
+              <h3>Papers</h3>
+              <p>Research and reference materials</p>
+            </a>
           </nav>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="foot">
-    <span>Coffee</span>
-    <a href="../">Home</a>
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Coffee</p>
+      <a href="../">Home</a>
+    </div>
   </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mainNav').classList.toggle('active');
+    }
+  </script>
 </body>
 </html>

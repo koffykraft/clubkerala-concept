@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KoffyKraft - Artisan Coffee Roastery</title>
+  <meta name="description" content="KoffyKraft: artisan coffee roastery, coffee leaf beverages, and sustainable estate farming from Karavaloor, Kerala.">
+  <link rel="stylesheet" href="assets/site/minimal.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">KoffyKraft</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+      <nav class="site-nav" id="mainNav">
+        <a href="coffee/">Coffee</a>
+        <a href="buna/">Buna</a>
+        <a href="estate/">Estate</a>
+        <a href="training/quiet/">Learn</a>
+        <a href="coffee/roastery/buy/">Buy</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-image">
+          <img src="assets/site/sample-roaster-full.jpg" alt="KoffyKraft roaster">
+        </div>
+        <h1>KoffyKraft</h1>
+        <p class="text-muted">Artisan coffee roastery from Karavaloor, Kerala</p>
+      </div>
+    </section>
+
+    <!-- Main Navigation -->
+    <section class="section">
+      <div class="container">
+        <nav class="door-nav" aria-label="Main sections">
+          <a href="coffee/">Coffee</a>
+          <a href="buna/">Buna</a>
+          <a href="estate/">Estate</a>
+          <a href="links/">Links</a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Karavaloor, Kerala</p>
+      <nav class="footer-nav">
+        <a href="coffee/roastery/buy/">Buy Coffee</a>
+        <a href="training/quiet/">Learn</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mainNav').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

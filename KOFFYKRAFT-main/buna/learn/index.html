@@ -3,41 +3,63 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Learn | KoffyKraft</title>
-  <meta name="description" content="Buna learning course and sensory school.">
-  <link rel="stylesheet" href="../../assets/site/passage.css">
+  <title>Learn About Buna | KoffyKraft</title>
+  <meta name="description" content="Understanding coffee leaf beverages.">
+  <link rel="stylesheet" href="../../assets/site/minimal.css">
 </head>
 <body>
-  <header class="top">
-    <a class="brand" href="../../">KoffyKraft</a>
-    <a href="../">Buna</a>
+  <header class="site-header">
+    <div class="container">
+      <a href="../../" class="site-logo">KoffyKraft</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+      <nav class="site-nav" id="mainNav">
+        <a href="../../coffee/">Coffee</a>
+        <a href="../" aria-current="page">Buna</a>
+        <a href="../../estate/">Estate</a>
+        <a href="../../training/quiet/">Learn</a>
+        <a href="../../coffee/roastery/buy/">Buy</a>
+      </nav>
+    </div>
   </header>
 
+  <div class="breadcrumb">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <a href="../../">Home</a>
+        <span>/</span>
+        <a href="../">Buna</a>
+        <span>/</span>
+        <span>Learn</span>
+      </nav>
+    </div>
+  </div>
+
   <main>
-    <section class="room-title">
-      <h1>Learn</h1>
+    <section class="page-title">
+      <div class="container">
+        <h1>Learn About Buna</h1>
+        <p class="text-muted">Understanding coffee leaf</p>
+      </div>
     </section>
 
-    <section class="passage">
-      <div class="panel">
-        <figure>
-          <img src="../../assets/site/buna-landscape.jpg" alt="Buna reference sheet">
-        </figure>
-        <div>
-          <nav class="door-list" aria-label="Learn doors">
-            <a class="door" href="../traditions/">Traditions</a>
-            <a class="door" href="../brewing/">Brewing</a>
-            <a class="door" href="../brewing/preparation-studies/">Preparation Studies</a>
-            <a class="door" href="../library/">Library</a>
-          </nav>
-        </div>
+    <section class="section">
+      <div class="container">
+        <p class="text-center text-muted">Educational resources about coffee leaf beverages</p>
       </div>
     </section>
   </main>
 
-  <footer class="foot">
-    <span>Learn</span>
-    <a href="../../">Home</a>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Learn About Buna</p>
+      <a href="../../">Home</a>
+    </div>
   </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mainNav').classList.toggle('active');
+    }
+  </script>
 </body>
 </html>

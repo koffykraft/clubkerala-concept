@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brewing | KoffyKraft</title>
+  <meta name="description" content="Buna brewing traditions and preparation papers.">
+  <link rel="stylesheet" href="../../assets/site/minimal.css">
+  <link rel="stylesheet" href="../../assets/site/buna-content.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="../../" class="site-logo">KoffyKraft</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav" onclick="toggleMenu(this)">☰</button>
+      <nav class="site-nav" id="mainNav" aria-label="Primary">
+        <a href="../../coffee/roastery/buy/">Buy</a>
+        <a href="../../coffee/roastery/browse/">Coffees</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="breadcrumb">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <a href="../../">Home</a>
+        <span>/</span>
+        <a href="../">Buna</a>
+        <span>/</span>
+        <span>Brewing</span>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Brewing</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="buna-panel">
+          <figure>
+            <img class="brewing-mark" src="../../assets/site/brewing-mark.svg" alt="Brewing mark">
+          </figure>
+          <div>
+            <nav class="door-list" aria-label="Brewing doors">
+              <a class="door" href="engere/">Engere</a>
+              <a class="door" href="chemo/">Chemo</a>
+              <a class="door" href="kawa-daun/">Kawa Daun</a>
+              <a class="door" href="kuti/">Kuti</a>
+              <a class="door" href="preparation-studies/">Preparation Studies</a>
+            </nav>
+          </div>
+        </div>
+
+        <div class="stock-list" aria-label="Brewing traditions">
+          <article class="stock-item">
+            <span>Milk brew</span>
+            <strong>Engere</strong>
+            <p>Coffee leaf brew strained, then combined with fresh milk. Documented in South Ethiopia.</p>
+            <a href="engere/">Open</a>
+          </article>
+          <article class="stock-item">
+            <span>Leaf and herbs</span>
+            <strong>Chemo</strong>
+            <p>Coffee leaves prepared with local aromatics. Documented in Tepi, Southwestern Ethiopia.</p>
+            <a href="chemo/">Open</a>
+          </article>
+          <article class="stock-item">
+            <span>Smoke dried</span>
+            <strong>Kawa Daun</strong>
+            <p>Smoked coffee leaf decoction from the Minangkabau highlands of West Sumatra.</p>
+            <a href="kawa-daun/">Open</a>
+          </article>
+          <article class="stock-item">
+            <span>Fallen leaf</span>
+            <strong>Kuti</strong>
+            <p>Sun-dried mature or fallen coffee leaves, usually prepared by decoction.</p>
+            <a href="kuti/">Open</a>
+          </article>
+          <article class="stock-item">
+            <span>Modern methods</span>
+            <strong>Preparation Studies</strong>
+            <p>Temperature, time, decoction, processing, aroma, and consumer perception.</p>
+            <a href="preparation-studies/">Open</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Brewing</p>
+      <a href="../../">Home</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu(btn) {
+      var nav = document.getElementById('mainNav');
+      var open = nav.classList.toggle('active');
+      if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+  </script>
+</body>
+</html>

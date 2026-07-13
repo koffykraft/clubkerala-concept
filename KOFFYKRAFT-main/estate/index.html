@@ -4,26 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Estate | KoffyKraft</title>
-  <meta name="description" content="Thumpassery Estate: Living Root Network farming, produce, and sustainable practices.">
+  <meta name="description" content="Thumpassery Estate, Living Root Network, produce, recipes, photos, and notes.">
   <link rel="stylesheet" href="../assets/site/minimal.css">
+  <link rel="stylesheet" href="../assets/site/estate-content.css">
 </head>
 <body>
-  <!-- Header -->
   <header class="site-header">
     <div class="container">
       <a href="../" class="site-logo">KoffyKraft</a>
-      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
-      <nav class="site-nav" id="mainNav">
-        <a href="../coffee/">Coffee</a>
-        <a href="../buna/">Buna</a>
-        <a href="../" aria-current="page">Estate</a>
-        <a href="../training/quiet/">Learn</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav" onclick="toggleMenu(this)">☰</button>
+      <nav class="site-nav" id="mainNav" aria-label="Primary">
         <a href="../coffee/roastery/buy/">Buy</a>
+        <a href="../coffee/roastery/browse/">Coffees</a>
       </nav>
     </div>
   </header>
 
-  <!-- Breadcrumb -->
   <div class="breadcrumb">
     <div class="container">
       <nav aria-label="Breadcrumb">
@@ -34,46 +30,32 @@
     </div>
   </div>
 
-  <!-- Page Title -->
   <main>
     <section class="page-title">
       <div class="container">
         <h1>Estate</h1>
-        <p class="text-muted">Thumpassery Estate, Living Root Network</p>
       </div>
     </section>
 
-    <!-- Content -->
     <section class="section">
       <div class="container">
-        <div class="two-col">
-          <div>
+        <div class="estate-panel">
+          <figure>
             <img src="../assets/site/home-living-root.jpg" alt="Living root planting at Thumpassery Estate">
+          </figure>
+          <div>
+            <nav class="door-list" aria-label="Estate doors">
+              <a class="door" href="../training/lrn/">LRN</a>
+              <a class="door" href="../training/lrn/field-cards.html">Field cards</a>
+              <a class="door" href="../training/lrn/references.html">Papers</a>
+              <a class="door" href="../links/">References</a>
+            </nav>
           </div>
-          <nav class="content-grid">
-            <a href="../training/lrn/" class="content-card">
-              <h3>LRN Handbook</h3>
-              <p>Living Root Network farming guide</p>
-            </a>
-            <a href="../training/lrn/field-cards.html" class="content-card">
-              <h3>Field Cards</h3>
-              <p>Quick reference guides</p>
-            </a>
-            <a href="../training/lrn/references.html" class="content-card">
-              <h3>Papers</h3>
-              <p>Research and references</p>
-            </a>
-            <a href="../links/" class="content-card">
-              <h3>Resources</h3>
-              <p>Additional materials</p>
-            </a>
-          </nav>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
       <p>Estate</p>
@@ -82,8 +64,10 @@
   </footer>
 
   <script>
-    function toggleMenu() {
-      document.getElementById('mainNav').classList.toggle('active');
+    function toggleMenu(btn) {
+      var nav = document.getElementById('mainNav');
+      var open = nav.classList.toggle('active');
+      if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     }
   </script>
 </body>

@@ -4,26 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Roast Days | KoffyKraft</title>
-  <meta name="description" content="KoffyKraft roasting schedule.">
+  <meta name="description" content="KoffyKraft roast days and roast-to-order practice.">
   <link rel="stylesheet" href="../../../assets/site/minimal.css">
+  <link rel="stylesheet" href="../../../assets/site/coffee-content.css">
 </head>
 <body>
-  <!-- Header -->
   <header class="site-header">
     <div class="container">
       <a href="../../../" class="site-logo">KoffyKraft</a>
-      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
-      <nav class="site-nav" id="mainNav">
-        <a href="../../../coffee/" aria-current="page">Coffee</a>
-        <a href="../../../buna/">Buna</a>
-        <a href="../../../estate/">Estate</a>
-        <a href="../../../training/quiet/">Learn</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav" onclick="toggleMenu(this)">☰</button>
+      <nav class="site-nav" id="mainNav" aria-label="Primary">
         <a href="../buy/">Buy</a>
+        <a href="../browse/">Coffees</a>
       </nav>
     </div>
   </header>
 
-  <!-- Breadcrumb -->
   <div class="breadcrumb">
     <div class="container">
       <nav aria-label="Breadcrumb">
@@ -38,39 +34,33 @@
     </div>
   </div>
 
-  <!-- Page Title -->
   <main>
     <section class="page-title">
       <div class="container">
         <h1>Roast Days</h1>
-        <p class="text-muted">Our roasting schedule</p>
       </div>
     </section>
 
-    <!-- Content -->
     <section class="section">
       <div class="container">
-        <p class="text-center text-muted mb-3">Roasting schedule and availability information</p>
-        
-        <nav class="content-grid">
-          <a href="../buy/" class="content-card">
-            <h3>Order Coffee</h3>
-            <p>Purchase roasted coffee</p>
-          </a>
-          <a href="../browse/" class="content-card">
-            <h3>Browse</h3>
-            <p>View current coffees</p>
-          </a>
-          <a href="../../../training/quiet/brewing/" class="content-card">
-            <h3>Brewing</h3>
-            <p>Learn to brew</p>
-          </a>
-        </nav>
+        <div class="coffee-panel">
+          <figure>
+            <img src="../../../assets/site/home-roaster-detail.jpg" alt="KoffyKraft roaster detail">
+          </figure>
+          <div>
+            <p class="small-note">Orders are grouped before roasting when possible. The offer may be two, three, or four coffees at a time, depending on green stock and roast day capacity.</p>
+            <nav class="door-list" aria-label="Roast day doors">
+              <a class="door" href="../buy/">Buy</a>
+              <a class="door" href="../browse/">Green Stock</a>
+              <a class="door" href="../../../training/quiet/brewing/">Brew</a>
+              <a class="door" href="../">Roastery</a>
+            </nav>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
       <p>Roast Days</p>
@@ -79,8 +69,10 @@
   </footer>
 
   <script>
-    function toggleMenu() {
-      document.getElementById('mainNav').classList.toggle('active');
+    function toggleMenu(btn) {
+      var nav = document.getElementById('mainNav');
+      var open = nav.classList.toggle('active');
+      if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
     }
   </script>
 </body>

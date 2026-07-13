@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Learn | KoffyKraft</title>
+  <meta name="description" content="Buna learning course and sensory school.">
+  <link rel="stylesheet" href="../../assets/site/minimal.css">
+  <link rel="stylesheet" href="../../assets/site/buna-content.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="../../" class="site-logo">KoffyKraft</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav" onclick="toggleMenu(this)">☰</button>
+      <nav class="site-nav" id="mainNav" aria-label="Primary">
+        <a href="../../coffee/roastery/buy/">Buy</a>
+        <a href="../../coffee/roastery/browse/">Coffees</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="breadcrumb">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <a href="../../">Home</a>
+        <span>/</span>
+        <a href="../">Buna</a>
+        <span>/</span>
+        <span>Learn</span>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Learn</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="buna-panel">
+          <figure>
+            <img src="../../assets/site/buna-landscape.jpg" alt="Buna reference sheet">
+          </figure>
+          <div>
+            <nav class="door-list" aria-label="Learn doors">
+              <a class="door" href="../traditions/">Traditions</a>
+              <a class="door" href="../brewing/">Brewing</a>
+              <a class="door" href="../brewing/preparation-studies/">Preparation Studies</a>
+              <a class="door" href="../library/">Library</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Learn</p>
+      <a href="../../">Home</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu(btn) {
+      var nav = document.getElementById('mainNav');
+      var open = nav.classList.toggle('active');
+      if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    }
+  </script>
+</body>
+</html>

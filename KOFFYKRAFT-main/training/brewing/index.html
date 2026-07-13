@@ -5,7 +5,176 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Brewing Reference Notes | KoffyKraft</title>
   <meta name="description" content="KoffyKraft brewing reference notes index.">
-  <link rel="stylesheet" href="../../assets/site/minimal.css">
+  <style>
+    :root {
+      --ink: #2b261f;
+      --muted: #8a8378;
+      --line: #eeeae2;
+      --paper: #fff;
+      --gutter: clamp(24px, 6vw, 92px);
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Arial Narrow", "Aptos Narrow", "Helvetica Neue", Arial, sans-serif;
+    }
+
+    a { color: inherit; }
+
+    .top {
+      min-height: 90px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 28px;
+      padding: 28px var(--gutter);
+    }
+
+    .brand {
+      font-size: clamp(30px, 3vw, 44px);
+      font-weight: 300;
+      letter-spacing: -0.03em;
+      text-decoration: none;
+    }
+
+    .top nav {
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .top nav a,
+    .lessons a,
+    .foot a {
+      color: inherit;
+      font-size: 15px;
+      text-decoration: none;
+    }
+
+    .top nav a[aria-current="page"] {
+      border-bottom: 1px solid currentColor;
+    }
+
+    main {
+      padding: 0 var(--gutter);
+    }
+
+    .room {
+      min-height: calc(100vh - 90px);
+      display: grid;
+      grid-template-rows: 1fr auto;
+      padding: clamp(52px, 8vw, 112px) 0 clamp(68px, 10vw, 140px);
+    }
+
+    .mark {
+      align-self: center;
+      justify-self: center;
+      width: min(360px, 58vw);
+      margin: 0;
+      opacity: 0.68;
+    }
+
+    .mark img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .reference-mark {
+      align-self: center;
+      justify-self: center;
+      width: min(210px, 42vw);
+      min-height: 250px;
+      margin: 0;
+      border: 1px solid var(--line);
+      display: grid;
+      align-content: center;
+      gap: 18px;
+      padding: 42px 34px;
+    }
+
+    .reference-mark span {
+      display: block;
+      height: 1px;
+      background: var(--muted);
+      opacity: 0.55;
+    }
+
+    .reference-note {
+      justify-self: center;
+      max-width: 520px;
+      margin: 24px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    h1 {
+      justify-self: center;
+      margin: clamp(22px, 4vw, 44px) 0 0;
+      font-size: clamp(20px, 2.2vw, 28px);
+      font-weight: 300;
+      letter-spacing: 0.34em;
+      text-transform: uppercase;
+    }
+
+    .lessons {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: clamp(74px, 12vw, 170px) 0 clamp(88px, 14vw, 190px);
+      border-top: 1px solid var(--line);
+    }
+
+    .lessons a {
+      display: grid;
+      grid-template-columns: 64px minmax(0, 1fr);
+      gap: 24px;
+      min-height: 66px;
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .lessons span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .foot {
+      min-height: 100px;
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      padding: 34px var(--gutter);
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+    }
+
+    @media (max-width: 700px) {
+      .top,
+      .foot {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      h1 {
+        letter-spacing: 0.24em;
+      }
+
+      .lessons a {
+        grid-template-columns: 1fr;
+        gap: 4px;
+        padding: 16px 0;
+      }
+    }
+  </style>
 </head>
 <body>
   <header class="top">
@@ -48,11 +217,5 @@
     <span>Brewing reference notes</span>
     <a href="../../">KoffyKraft</a>
   </footer>
-
-  <script>
-    function toggleMenu() {
-      document.getElementById('mainNav').classList.toggle('active');
-    }
-  </script>
 </body>
 </html>

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roast Days | KoffyKraft</title>
+  <meta name="description" content="KoffyKraft roasting schedule.">
+  <link rel="stylesheet" href="../../../assets/site/minimal.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="../../../" class="site-logo">KoffyKraft</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+      <nav class="site-nav" id="mainNav">
+        <a href="../../../coffee/" aria-current="page">Coffee</a>
+        <a href="../../../buna/">Buna</a>
+        <a href="../../../estate/">Estate</a>
+        <a href="../../../training/quiet/">Learn</a>
+        <a href="../buy/">Buy</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <a href="../../../">Home</a>
+        <span>/</span>
+        <a href="../../">Coffee</a>
+        <span>/</span>
+        <a href="../">Roastery</a>
+        <span>/</span>
+        <span>Roast Days</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Page Title -->
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Roast Days</h1>
+        <p class="text-muted">Our roasting schedule</p>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="section">
+      <div class="container">
+        <p class="text-center text-muted mb-3">Roasting schedule and availability information</p>
+        
+        <nav class="content-grid">
+          <a href="../buy/" class="content-card">
+            <h3>Order Coffee</h3>
+            <p>Purchase roasted coffee</p>
+          </a>
+          <a href="../browse/" class="content-card">
+            <h3>Browse</h3>
+            <p>View current coffees</p>
+          </a>
+          <a href="../../../training/quiet/brewing/" class="content-card">
+            <h3>Brewing</h3>
+            <p>Learn to brew</p>
+          </a>
+        </nav>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Roast Days</p>
+      <a href="../../../">Home</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mainNav').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

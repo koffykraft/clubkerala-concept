@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400&family=Cormorant+Garamond:wght@300&display=swap");
+
+:root {
+  --ink: #171513;
+  --muted: #77736c;
+  --line: #efefeb;
+  --paper: #fff;
+  --gutter: clamp(24px, 7vw, 108px);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Barlow Condensed", "Arial Narrow", "Aptos Narrow", "Helvetica Neue", Arial, sans-serif;
+}
+
+a { color: inherit; }
+
+.top,
+.foot {
+  min-height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 28px;
+  padding: 26px var(--gutter);
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(24px, 4vw, 58px);
+}
+
+.brand {
+  color: var(--ink);
+  font-size: clamp(30px, 3vw, 46px);
+  font-weight: 300;
+  letter-spacing: -0.02em;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.top a:not(.brand),
+.foot a,
+.entry-index,
+.door {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.top a:not(.brand):hover,
+.foot a:hover,
+.entry-index:hover,
+.door:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+main { min-height: calc(100vh - 184px); }
+
+.entry {
+  min-height: calc(100vh - 92px);
+  display: grid;
+  grid-template-columns: minmax(0, 0.74fr) minmax(240px, 0.36fr);
+  align-items: center;
+  gap: clamp(56px, 12vw, 180px);
+  padding: clamp(70px, 11vw, 162px) var(--gutter);
+}
+
+.entry h1,
+.room-title h1 {
+  margin: 0;
+  font-family: "Cormorant Garamond", Garamond, "Times New Roman", serif;
+  font-size: clamp(78px, 12vw, 172px);
+  font-weight: 300;
+  letter-spacing: -0.055em;
+  line-height: 0.82;
+}
+
+.entry figure,
+.panel figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter: saturate(0.66) contrast(0.96) brightness(1.04);
+}
+
+.entry img { max-height: 62vh; }
+
+.image-space {
+  width: min(100%, 420px);
+  aspect-ratio: 4 / 5;
+  border: 1px solid var(--line);
+  background: #fff;
+}
+
+.entry-home {
+  min-height: calc(100vh - 92px);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-content: start;
+  justify-items: center;
+  gap: clamp(42px, 8vw, 108px);
+  padding: clamp(46px, 7vw, 92px) var(--gutter) clamp(42px, 7vw, 96px);
+}
+
+.entry-home .entry-index {
+  justify-self: start;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.entry-home figure {
+  width: min(430px, 62vw);
+}
+
+.entry-home h1 {
+  order: 3;
+  justify-self: stretch;
+  text-align: center;
+  font-size: clamp(74px, 15vw, 230px);
+  line-height: 0.72;
+}
+
+.entry-home img {
+  max-height: 62vh;
+}
+
+.doors {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: clamp(86px, 14vw, 210px) var(--gutter);
+  border-top: 1px solid var(--line);
+}
+
+.door-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--line);
+}
+
+.door {
+  min-height: 154px;
+  align-items: end;
+  padding: 24px;
+  background: #fff;
+  color: #22201c;
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.room-title {
+  min-height: 48vh;
+  display: grid;
+  align-content: center;
+  padding: clamp(70px, 12vw, 160px) var(--gutter);
+}
+
+.passage {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: clamp(60px, 9vw, 140px) var(--gutter) clamp(110px, 16vw, 220px);
+  border-top: 1px solid var(--line);
+}
+
+.panel {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.35fr) minmax(0, 0.65fr);
+  align-items: center;
+  gap: clamp(42px, 8vw, 120px);
+  margin-bottom: clamp(78px, 12vw, 170px);
+}
+
+.panel:last-child { margin-bottom: 0; }
+
+.panel img { max-height: 66vh; }
+
+.small-note {
+  max-width: 640px;
+  color: var(--muted);
+  font-size: clamp(20px, 2.2vw, 28px);
+  line-height: 1.55;
+}
+
+.stock-list {
+  display: grid;
+  gap: 1px;
+  margin: 42px 0;
+  background: var(--line);
+}
+
+.stock-item {
+  display: grid;
+  gap: 8px;
+  padding: 22px 0;
+  background: var(--paper);
+}
+
+.stock-item span,
+.stock-item a {
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.stock-item strong {
+  font-size: clamp(22px, 2.4vw, 34px);
+  font-weight: 300;
+  letter-spacing: 0.01em;
+}
+
+.stock-item p {
+  max-width: 560px;
+  margin: 0;
+  color: var(--muted);
+  font-size: clamp(17px, 1.8vw, 22px);
+  line-height: 1.45;
+}
+
+.stock-item a {
+  width: fit-content;
+  min-height: 34px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.stock-item a:hover {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
+.label {
+  margin: 0 0 22px;
+  color: var(--muted);
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.door-list {
+  display: grid;
+  gap: 1px;
+  margin-top: 0;
+  background: var(--line);
+}
+
+.door-list .door {
+  min-height: 86px;
+}
+
+.foot {
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 760px) {
+  .top,
+  .foot {
+    min-height: 86px;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 24px;
+  }
+
+  .top-nav {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .entry,
+  .panel,
+  .door-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .entry {
+    min-height: auto;
+    padding: 54px 24px 92px;
+  }
+
+  .entry figure {
+    order: -1;
+    width: min(260px, 72vw);
+    justify-self: center;
+  }
+
+  .entry h1,
+  .room-title h1 {
+    font-size: clamp(76px, 22vw, 116px);
+  }
+
+  .entry-home {
+    gap: 48px;
+    padding-top: 42px;
+  }
+
+  .entry-home figure {
+    width: min(320px, 76vw);
+  }
+
+  .entry-home h1 {
+    font-size: clamp(74px, 20vw, 130px);
+  }
+
+  .room-title,
+  .doors,
+  .passage {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}

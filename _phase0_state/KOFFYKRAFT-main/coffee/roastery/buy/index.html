@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buy Coffee | KoffyKraft</title>
+  <meta name="description" content="Buy freshly roasted coffee from KoffyKraft.">
+  <link rel="stylesheet" href="../../../assets/site/minimal.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="../../../" class="site-logo">KoffyKraft</a>
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+      <nav class="site-nav" id="mainNav">
+        <a href="../../../coffee/">Coffee</a>
+        <a href="../../../buna/">Buna</a>
+        <a href="../../../estate/">Estate</a>
+        <a href="../../../training/quiet/">Learn</a>
+        <a href="../../../coffee/roastery/buy/" aria-current="page">Buy</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <div class="container">
+      <nav aria-label="Breadcrumb">
+        <a href="../../../">Home</a>
+        <span>/</span>
+        <a href="../../">Coffee</a>
+        <span>/</span>
+        <a href="../">Roastery</a>
+        <span>/</span>
+        <span>Buy</span>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Page Title -->
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Buy</h1>
+      </div>
+    </section>
+
+    <!-- Content -->
+    <section class="section">
+      <div class="container">
+        <div class="two-col">
+          <div>
+            <img src="../../../assets/site/koffykraft-coffee-bag.jpg" alt="KoffyKraft roasted coffee bag">
+          </div>
+          <div>
+            <p class="text-muted">KoffyKraft is a garage roastery. Coffees are usually roasted to order on roast days. Washed coffees are the usual focus; other processes appear when they make sense.</p>
+            
+            <nav class="content-grid mt-3">
+              <a href="../browse/" class="content-card">
+                <h3>Browse Coffees</h3>
+                <p>View our current selection</p>
+              </a>
+              <a href="../roast-days/" class="content-card">
+                <h3>Roast Days</h3>
+                <p>Check our schedule</p>
+              </a>
+              <a href="../../../training/quiet/brewing/" class="content-card">
+                <h3>Brewing Guide</h3>
+                <p>Learn to brew</p>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Buy</p>
+      <a href="../../../">Home</a>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mainNav').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

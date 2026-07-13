@@ -1,0 +1,1056 @@
+{
+  "changed_count": 136,
+  "identical_after_restore": 134,
+  "residual_count": 2,
+  "warnings": [],
+  "changes": [
+    {
+      "file": "buna/brewing/chemo/index.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../../../assets/site/passage.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "buna/brewing/engere/index.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../../../assets/site/passage.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "buna/brewing/kawa-daun/index.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../../../assets/site/passage.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "buna/brewing/kuti/index.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../../../assets/site/passage.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "buna/brewing/preparation-studies/index.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../../../assets/site/passage.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "buna/field-notes/index.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  ../../assets/site/passage.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "buna/leaf/index.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  ../../assets/site/passage.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "citane/index.html",
+      "ops": [
+        "link: ../assets/site/minimal.css  ->  ../assets/site/passage.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "citane/smoked/Citane_Kawa_Daun_Field_Note.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": false
+    },
+    {
+      "file": "citane/smoked/kawadaun_style.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": false
+    },
+    {
+      "file": "cold-brew/index.html",
+      "ops": [
+        "link: ../assets/site/minimal.css  ->  ../assets/site/passage.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "learn/index.html",
+      "ops": [
+        "link: ../assets/site/minimal.css  ->  ../assets/site/passage.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-1-introduction-to-coffee-and-brewing-basics.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-10-milk-steaming-and-cappuccino-basics.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-11-espresso-mastery-advanced-techniques-and-tuning-variables.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-12-latte-art-and-milk-mastery-advanced-milk-techniques.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-13-water-quality-and-advanced-brew-science-the-chemistry-of-coffee.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-14-sustainable-brewing-practices-coffee-and-environmental-responsibility.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-15-continued-learning-and-innovation-staying-curious-and-sharing-knowledge.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-2-the-essentials-brew-ratio-grind-size-and-water-temperature.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-3-immersion-brewing-french-press-fundamentals.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-4-pour-over-basics-brewing-with-a-simple-dripper-v60.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-5-automatic-drip-brewing-getting-the-most-from-your-coffee-maker.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-6-understanding-extraction-taste-and-troubleshoot-your-coffee.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-7-advanced-pour-over-techniques-refining-your-v60-and-other-drippers.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-8-immersion-beyond-french-press-mastering-aeropress-and-intro-to-cold-brew.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/lessons/lesson-9-espresso-fundamentals-pulling-your-first-shot.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/quality-notes.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/brewing/references.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/guides/before-module-2-how-to-combine-what-you-feel-a-beginner-s-compass.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/guides/before-module-3-tasting-with-trust-a-joyful-foundation-for-real-world-cupping.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/guides/before-the-first-cupping.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/guides/koffy-kraft-cupping-manual-for-beginners.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/guides/mis-en-place-for-the-aspiring-coffee-student.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/guides/sensory-basics-for-coffee-how-to-smell-taste-and-trust-your-palate.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-1-1-aroma-mastery.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-1-2-sweetness-sensitivity.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-1-3-acidity-awareness.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-1-4-body-and-texture.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-1-5-aftertaste-and-clean-cup.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-2-1-dry-to-wet-aroma-journey.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-2-2-flavor-balance-practice.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-2-3-defects-101.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-2-4-consistency-and-comparative-cupping.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-2-5-building-a-cupping-routine.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-1-cupping-in-real-life-conditions.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-2-gentle-flavor-calibration-and-familiar-taste-mapping.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-3-using-a-cupping-form-effectively.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-4-roast-evaluation-and-quality-scoring.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-6-building-a-personal-flavor-library.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-7-cupping-for-troubleshooting.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-8-exploratory-cupping-and-curiosity-sessions.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/quality-notes.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/cupping/references.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/deeper-dive/index.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/field-cards.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/index.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/lessons/lesson-1-what-is-living-root-network.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/lessons/lesson-10-building-your-own-lrn-system.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/lessons/lesson-2-plant-nutrition-for-beginners.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/lessons/lesson-3-root-zones-and-rhizosphere.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/lessons/lesson-4-microbes-fungi-and-the-underground-market.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/lessons/lesson-5-water-heat-and-climate-resilience.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/lessons/lesson-6-home-garden-lrn.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/lessons/lesson-7-field-and-estate-implementation.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/lessons/lesson-8-crop-protocols.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/lessons/lesson-9-diagnosis-and-field-records.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/lrn/references.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/index.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-1-introduction-to-coffee-and-brewing-basics.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-10-milk-steaming-and-cappuccino-basics.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-11-espresso-mastery-advanced-techniques-and-tuning-variables.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-12-latte-art-and-milk-mastery-advanced-milk-techniques.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-13-water-quality-and-advanced-brew-science-the-chemistry-of-coffee.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-14-sustainable-brewing-practices-coffee-and-environmental-responsibility.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-15-continued-learning-and-innovation-staying-curious-and-sharing-knowledge.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-2-the-essentials-brew-ratio-grind-size-and-water-temperature.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-3-immersion-brewing-french-press-fundamentals.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-4-pour-over-basics-brewing-with-a-simple-dripper-v60.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-5-automatic-drip-brewing-getting-the-most-from-your-coffee-maker.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-6-understanding-extraction-taste-and-troubleshoot-your-coffee.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-7-advanced-pour-over-techniques-refining-your-v60-and-other-drippers.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-8-immersion-beyond-french-press-mastering-aeropress-and-intro-to-cold-brew.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-9-espresso-fundamentals-pulling-your-first-shot.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/index.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/before-the-first-cupping.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-1-1-aroma-mastery.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-1-2-sweetness-sensitivity.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-1-3-acidity-awareness.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-1-4-body-and-texture.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-1-5-aftertaste-and-clean-cup.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-2-1-dry-to-wet-aroma-journey.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-2-2-flavor-balance-practice.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-2-3-defects-101.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-2-4-consistency-and-comparative-cupping.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-2-5-building-a-cupping-routine.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-1-cupping-in-real-life-conditions.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-2-gentle-flavor-calibration-and-familiar-taste-mapping.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-3-using-a-cupping-form-effectively.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-4-roast-evaluation-and-quality-scoring.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-6-building-a-personal-flavor-library.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-7-cupping-for-troubleshooting.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-8-exploratory-cupping-and-curiosity-sessions.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/index.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/quiet/words.html",
+      "ops": [
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/glossary.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/index.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-1-what-changes-during-coffee-roasting.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-10-roasting-for-flavor-goals.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-12-preparing-for-roasting-indian-coffee-focus.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-2-heat-transfer-and-your-roaster.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-3-bean-density-and-moisture-how-they-affect-roasting.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-4-understanding-first-crack-and-managing-development-phase.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-5-roast-profiles-understanding-and-guiding-the-curve.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-6-recognizing-and-understanding-roast-defects.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-7-light-medium-and-dark-understanding-roast-levels-in-the-real-world.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-8-matching-roast-to-brew-method-completing-the-journey.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-9-troubleshooting-roast-problems-learning-to-see-think-and-improve.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-2-1-understanding-post-roast-aging-and-rest.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-2-2-roast-adjustments-for-blend-design.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-2-3-cupping-and-sensory-alignment.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-2-4-gas-management-and-airflow-tuning.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-2-5-storage-and-packaging-best-practices.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-1-environmental-variables-in-roasting.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-2-sensory-calibration-and-flavor-mapping.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-3-roast-profiling-with-data-tools.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-4-roast-evaluation-and-quality-control.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-5-consistent-production-roasting-and-scaling-updated.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-6-logging-documentation-and-roast-library-management.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-7-troubleshooting-and-roast-failures.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-8-experimental-roasting-and-innovation.html",
+      "ops": [
+        "link: ../../../assets/site/minimal.css  ->  ../assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/pathways.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/quality-notes.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/references.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/safety.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    },
+    {
+      "file": "training/roasting/study-guide.html",
+      "ops": [
+        "link: ../../assets/site/minimal.css  ->  assets/styles.css",
+        "script: removed appended toggleMenu block"
+      ],
+      "now_identical_to_original": true
+    }
+  ]
+}

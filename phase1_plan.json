@@ -1,0 +1,1537 @@
+{
+  "phase0_restore_point": "git 3560389 / /app/phase0_backup.tar.gz",
+  "counts": {
+    "to_change": 134,
+    "skipped_rewritten": 15,
+    "skipped_untouched": 4,
+    "anomalies": 40,
+    "total_html": 155
+  },
+  "anomalies": [
+    [
+      "citane/smoked/Citane_Kawa_Daun_Field_Note.html",
+      "original had no <link rel=stylesheet>"
+    ],
+    [
+      "citane/smoked/kawadaun_style.html",
+      "original had no <link rel=stylesheet>"
+    ],
+    [
+      "training/deeper-dive/index.html",
+      "CSS already matches original (../quiet/assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/index.html",
+      "CSS already matches original (../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-1-introduction-to-coffee-and-brewing-basics.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-10-milk-steaming-and-cappuccino-basics.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-11-espresso-mastery-advanced-techniques-and-tuning-variables.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-12-latte-art-and-milk-mastery-advanced-milk-techniques.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-13-water-quality-and-advanced-brew-science-the-chemistry-of-coffee.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-14-sustainable-brewing-practices-coffee-and-environmental-responsibility.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-15-continued-learning-and-innovation-staying-curious-and-sharing-knowledge.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-2-the-essentials-brew-ratio-grind-size-and-water-temperature.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-3-immersion-brewing-french-press-fundamentals.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-4-pour-over-basics-brewing-with-a-simple-dripper-v60.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-5-automatic-drip-brewing-getting-the-most-from-your-coffee-maker.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-6-understanding-extraction-taste-and-troubleshoot-your-coffee.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-7-advanced-pour-over-techniques-refining-your-v60-and-other-drippers.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-8-immersion-beyond-french-press-mastering-aeropress-and-intro-to-cold-brew.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/brewing/lessons/lesson-9-espresso-fundamentals-pulling-your-first-shot.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/index.html",
+      "CSS already matches original (../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/before-the-first-cupping.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-1-1-aroma-mastery.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-1-2-sweetness-sensitivity.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-1-3-acidity-awareness.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-1-4-body-and-texture.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-1-5-aftertaste-and-clean-cup.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-2-1-dry-to-wet-aroma-journey.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-2-2-flavor-balance-practice.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-2-3-defects-101.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-2-4-consistency-and-comparative-cupping.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-2-5-building-a-cupping-routine.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-3-1-cupping-in-real-life-conditions.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-3-2-gentle-flavor-calibration-and-familiar-taste-mapping.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-3-3-using-a-cupping-form-effectively.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-3-4-roast-evaluation-and-quality-scoring.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-3-6-building-a-personal-flavor-library.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-3-7-cupping-for-troubleshooting.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/cupping/lessons/lesson-3-8-exploratory-cupping-and-curiosity-sessions.html",
+      "CSS already matches original (../../assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/index.html",
+      "CSS already matches original (assets/course.css) but file still differs"
+    ],
+    [
+      "training/quiet/words.html",
+      "CSS already matches original (assets/course.css) but file still differs"
+    ]
+  ],
+  "skipped_rewritten": [
+    "buna/brewing/index.html",
+    "buna/index.html",
+    "buna/learn/index.html",
+    "buna/library/index.html",
+    "buna/traditions/index.html",
+    "coffee/index.html",
+    "coffee/roastery/browse/index.html",
+    "coffee/roastery/buy/index.html",
+    "coffee/roastery/index.html",
+    "coffee/roastery/roast-days/index.html",
+    "estate/index.html",
+    "index.html",
+    "links/index.html",
+    "training/brewing/index.html",
+    "training/cupping/index.html"
+  ],
+  "skipped_untouched": [
+    "image-catalog.html",
+    "index-silent-sample.html",
+    "link-catalog.html",
+    "training/roasting/lessons/lesson-1-11-sample-roasting-vs-production-roasting.html"
+  ],
+  "plan": [
+    {
+      "file": "buna/brewing/chemo/index.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../../../assets/site/passage.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/passage.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/assets/site/passage.css"
+    },
+    {
+      "file": "buna/brewing/engere/index.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../../../assets/site/passage.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/passage.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/assets/site/passage.css"
+    },
+    {
+      "file": "buna/brewing/kawa-daun/index.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../../../assets/site/passage.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/passage.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/assets/site/passage.css"
+    },
+    {
+      "file": "buna/brewing/kuti/index.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../../../assets/site/passage.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/passage.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/assets/site/passage.css"
+    },
+    {
+      "file": "buna/brewing/preparation-studies/index.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../../../assets/site/passage.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/passage.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/assets/site/passage.css"
+    },
+    {
+      "file": "buna/field-notes/index.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "../../assets/site/passage.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/passage.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/assets/site/passage.css"
+    },
+    {
+      "file": "buna/leaf/index.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "../../assets/site/passage.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/passage.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/assets/site/passage.css"
+    },
+    {
+      "file": "citane/index.html",
+      "current_link_href": "../assets/site/minimal.css",
+      "restore_link_href": "../assets/site/passage.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/site/passage.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/assets/site/passage.css"
+    },
+    {
+      "file": "cold-brew/index.html",
+      "current_link_href": "../assets/site/minimal.css",
+      "restore_link_href": "../assets/site/passage.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/site/passage.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/assets/site/passage.css"
+    },
+    {
+      "file": "learn/index.html",
+      "current_link_href": "../assets/site/minimal.css",
+      "restore_link_href": "../assets/site/passage.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/site/passage.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/assets/site/passage.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-1-introduction-to-coffee-and-brewing-basics.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-10-milk-steaming-and-cappuccino-basics.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-11-espresso-mastery-advanced-techniques-and-tuning-variables.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-12-latte-art-and-milk-mastery-advanced-milk-techniques.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-13-water-quality-and-advanced-brew-science-the-chemistry-of-coffee.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-14-sustainable-brewing-practices-coffee-and-environmental-responsibility.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-15-continued-learning-and-innovation-staying-curious-and-sharing-knowledge.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-2-the-essentials-brew-ratio-grind-size-and-water-temperature.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-3-immersion-brewing-french-press-fundamentals.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-4-pour-over-basics-brewing-with-a-simple-dripper-v60.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-5-automatic-drip-brewing-getting-the-most-from-your-coffee-maker.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-6-understanding-extraction-taste-and-troubleshoot-your-coffee.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-7-advanced-pour-over-techniques-refining-your-v60-and-other-drippers.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-8-immersion-beyond-french-press-mastering-aeropress-and-intro-to-cold-brew.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/lessons/lesson-9-espresso-fundamentals-pulling-your-first-shot.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/quality-notes.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/brewing/references.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/brewing/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/guides/before-module-2-how-to-combine-what-you-feel-a-beginner-s-compass.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/guides/before-module-3-tasting-with-trust-a-joyful-foundation-for-real-world-cupping.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/guides/before-the-first-cupping.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/guides/koffy-kraft-cupping-manual-for-beginners.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/guides/mis-en-place-for-the-aspiring-coffee-student.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/guides/sensory-basics-for-coffee-how-to-smell-taste-and-trust-your-palate.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-1-1-aroma-mastery.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-1-2-sweetness-sensitivity.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-1-3-acidity-awareness.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-1-4-body-and-texture.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-1-5-aftertaste-and-clean-cup.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-2-1-dry-to-wet-aroma-journey.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-2-2-flavor-balance-practice.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-2-3-defects-101.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-2-4-consistency-and-comparative-cupping.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-2-5-building-a-cupping-routine.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-1-cupping-in-real-life-conditions.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-2-gentle-flavor-calibration-and-familiar-taste-mapping.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-3-using-a-cupping-form-effectively.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-4-roast-evaluation-and-quality-scoring.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-6-building-a-personal-flavor-library.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-7-cupping-for-troubleshooting.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/lessons/lesson-3-8-exploratory-cupping-and-curiosity-sessions.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/quality-notes.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/cupping/references.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/cupping/assets/styles.css"
+    },
+    {
+      "file": "training/deeper-dive/index.html",
+      "current_link_href": "../quiet/assets/course.css",
+      "restore_link_href": "../quiet/assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../quiet/assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../quiet/assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/lrn/field-cards.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/index.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/lessons/lesson-1-what-is-living-root-network.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/lessons/lesson-10-building-your-own-lrn-system.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/lessons/lesson-2-plant-nutrition-for-beginners.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/lessons/lesson-3-root-zones-and-rhizosphere.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/lessons/lesson-4-microbes-fungi-and-the-underground-market.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/lessons/lesson-5-water-heat-and-climate-resilience.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/lessons/lesson-6-home-garden-lrn.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/lessons/lesson-7-field-and-estate-implementation.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/lessons/lesson-8-crop-protocols.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/lessons/lesson-9-diagnosis-and-field-records.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/lrn/references.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/lrn/assets/styles.css"
+    },
+    {
+      "file": "training/quiet/brewing/index.html",
+      "current_link_href": "../assets/course.css",
+      "restore_link_href": "../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-1-introduction-to-coffee-and-brewing-basics.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-10-milk-steaming-and-cappuccino-basics.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-11-espresso-mastery-advanced-techniques-and-tuning-variables.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-12-latte-art-and-milk-mastery-advanced-milk-techniques.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-13-water-quality-and-advanced-brew-science-the-chemistry-of-coffee.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-14-sustainable-brewing-practices-coffee-and-environmental-responsibility.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-15-continued-learning-and-innovation-staying-curious-and-sharing-knowledge.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-2-the-essentials-brew-ratio-grind-size-and-water-temperature.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-3-immersion-brewing-french-press-fundamentals.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-4-pour-over-basics-brewing-with-a-simple-dripper-v60.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-5-automatic-drip-brewing-getting-the-most-from-your-coffee-maker.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-6-understanding-extraction-taste-and-troubleshoot-your-coffee.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-7-advanced-pour-over-techniques-refining-your-v60-and-other-drippers.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-8-immersion-beyond-french-press-mastering-aeropress-and-intro-to-cold-brew.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/brewing/lessons/lesson-9-espresso-fundamentals-pulling-your-first-shot.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/index.html",
+      "current_link_href": "../assets/course.css",
+      "restore_link_href": "../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/before-the-first-cupping.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-1-1-aroma-mastery.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-1-2-sweetness-sensitivity.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-1-3-acidity-awareness.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-1-4-body-and-texture.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-1-5-aftertaste-and-clean-cup.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-2-1-dry-to-wet-aroma-journey.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-2-2-flavor-balance-practice.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-2-3-defects-101.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-2-4-consistency-and-comparative-cupping.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-2-5-building-a-cupping-routine.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-1-cupping-in-real-life-conditions.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-2-gentle-flavor-calibration-and-familiar-taste-mapping.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-3-using-a-cupping-form-effectively.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-4-roast-evaluation-and-quality-scoring.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-6-building-a-personal-flavor-library.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-7-cupping-for-troubleshooting.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/cupping/lessons/lesson-3-8-exploratory-cupping-and-curiosity-sessions.html",
+      "current_link_href": "../../assets/course.css",
+      "restore_link_href": "../../assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/index.html",
+      "current_link_href": "assets/course.css",
+      "restore_link_href": "assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/quiet/words.html",
+      "current_link_href": "assets/course.css",
+      "restore_link_href": "assets/course.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/course.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"assets/course.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/quiet/assets/course.css"
+    },
+    {
+      "file": "training/roasting/glossary.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/index.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-1-what-changes-during-coffee-roasting.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-10-roasting-for-flavor-goals.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-12-preparing-for-roasting-indian-coffee-focus.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-2-heat-transfer-and-your-roaster.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-3-bean-density-and-moisture-how-they-affect-roasting.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-4-understanding-first-crack-and-managing-development-phase.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-5-roast-profiles-understanding-and-guiding-the-curve.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-6-recognizing-and-understanding-roast-defects.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-7-light-medium-and-dark-understanding-roast-levels-in-the-real-world.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-8-matching-roast-to-brew-method-completing-the-journey.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-1-9-troubleshooting-roast-problems-learning-to-see-think-and-improve.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-2-1-understanding-post-roast-aging-and-rest.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-2-2-roast-adjustments-for-blend-design.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-2-3-cupping-and-sensory-alignment.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-2-4-gas-management-and-airflow-tuning.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-2-5-storage-and-packaging-best-practices.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-1-environmental-variables-in-roasting.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-2-sensory-calibration-and-flavor-mapping.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-3-roast-profiling-with-data-tools.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-4-roast-evaluation-and-quality-control.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-5-consistent-production-roasting-and-scaling-updated.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-6-logging-documentation-and-roast-library-management.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-7-troubleshooting-and-roast-failures.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/lessons/lesson-3-8-experimental-roasting-and-innovation.html",
+      "current_link_href": "../../../assets/site/minimal.css",
+      "restore_link_href": "../assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"../assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/pathways.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/quality-notes.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/references.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/safety.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    },
+    {
+      "file": "training/roasting/study-guide.html",
+      "current_link_href": "../../assets/site/minimal.css",
+      "restore_link_href": "assets/styles.css",
+      "restore_link_tag": "<link rel=\"stylesheet\" href=\"assets/styles.css\">",
+      "current_link_tag": "<link rel=\"stylesheet\" href=\"../../assets/site/minimal.css\">",
+      "has_toggle_script": true,
+      "css_resolves": true,
+      "css_resolved_path": "/app/KOFFYKRAFT-main/training/roasting/assets/styles.css"
+    }
+  ]
+}

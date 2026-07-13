@@ -3,19 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Library | KoffyKraft</title>
-  <meta name="description" content="Buna library and references.">
+  <title>Buna Library | KoffyKraft</title>
+  <meta name="description" content="Coffee leaf beverage references and research.">
   <link rel="stylesheet" href="../../assets/site/minimal.css">
-  <link rel="stylesheet" href="../../assets/site/buna-content.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <a href="../../" class="site-logo">KoffyKraft</a>
-      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav" onclick="toggleMenu(this)">☰</button>
-      <nav class="site-nav" id="mainNav" aria-label="Primary">
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+      <nav class="site-nav" id="mainNav">
+        <a href="../../coffee/">Coffee</a>
+        <a href="../" aria-current="page">Buna</a>
+        <a href="../../estate/">Estate</a>
+        <a href="../../training/quiet/">Learn</a>
         <a href="../../coffee/roastery/buy/">Buy</a>
-        <a href="../../coffee/roastery/browse/">Coffees</a>
       </nav>
     </div>
   </header>
@@ -35,41 +37,28 @@
   <main>
     <section class="page-title">
       <div class="container">
-        <h1>Library</h1>
+        <h1>Buna Library</h1>
+        <p class="text-muted">References and research</p>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div class="buna-panel">
-          <figure>
-            <img src="../../assets/site/buna-landscape.jpg" alt="Buna reference sheet">
-          </figure>
-          <div>
-            <nav class="door-list" aria-label="Library doors">
-              <a class="door" href="../traditions/">Traditions</a>
-              <a class="door" href="../brewing/">Brewing</a>
-              <a class="door" href="../brewing/preparation-studies/">Preparation Studies</a>
-              <a class="door" href="../field-notes/">Field Notes</a>
-            </nav>
-          </div>
-        </div>
+        <p class="text-center text-muted">Collection of resources about coffee leaf beverages</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>Library</p>
+      <p>Buna Library</p>
       <a href="../../">Home</a>
     </div>
   </footer>
 
   <script>
-    function toggleMenu(btn) {
-      var nav = document.getElementById('mainNav');
-      var open = nav.classList.toggle('active');
-      if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    function toggleMenu() {
+      document.getElementById('mainNav').classList.toggle('active');
     }
   </script>
 </body>

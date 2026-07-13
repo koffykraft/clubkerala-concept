@@ -3,19 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Brewing | KoffyKraft</title>
-  <meta name="description" content="Buna brewing traditions and preparation papers.">
+  <title>Buna Brewing | KoffyKraft</title>
+  <meta name="description" content="Coffee leaf brewing methods and preparation guides.">
   <link rel="stylesheet" href="../../assets/site/minimal.css">
-  <link rel="stylesheet" href="../../assets/site/buna-content.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <a href="../../" class="site-logo">KoffyKraft</a>
-      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav" onclick="toggleMenu(this)">☰</button>
-      <nav class="site-nav" id="mainNav" aria-label="Primary">
+      <button class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">☰</button>
+      <nav class="site-nav" id="mainNav">
+        <a href="../../coffee/">Coffee</a>
+        <a href="../" aria-current="page">Buna</a>
+        <a href="../../estate/">Estate</a>
+        <a href="../../training/quiet/">Learn</a>
         <a href="../../coffee/roastery/buy/">Buy</a>
-        <a href="../../coffee/roastery/browse/">Coffees</a>
       </nav>
     </div>
   </header>
@@ -35,58 +37,30 @@
   <main>
     <section class="page-title">
       <div class="container">
-        <h1>Brewing</h1>
+        <h1>Buna Brewing</h1>
+        <p class="text-muted">Preparation methods and recipes</p>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div class="buna-panel">
-          <figure>
-            <img class="brewing-mark" src="../../assets/site/brewing-mark.svg" alt="Brewing mark">
-          </figure>
-          <div>
-            <nav class="door-list" aria-label="Brewing doors">
-              <a class="door" href="engere/">Engere</a>
-              <a class="door" href="chemo/">Chemo</a>
-              <a class="door" href="kawa-daun/">Kawa Daun</a>
-              <a class="door" href="kuti/">Kuti</a>
-              <a class="door" href="preparation-studies/">Preparation Studies</a>
-            </nav>
-          </div>
-        </div>
-
-        <div class="stock-list" aria-label="Brewing traditions">
-          <article class="stock-item">
-            <span>Milk brew</span>
-            <strong>Engere</strong>
-            <p>Coffee leaf brew strained, then combined with fresh milk. Documented in South Ethiopia.</p>
-            <a href="engere/">Open</a>
-          </article>
-          <article class="stock-item">
-            <span>Leaf and herbs</span>
-            <strong>Chemo</strong>
-            <p>Coffee leaves prepared with local aromatics. Documented in Tepi, Southwestern Ethiopia.</p>
-            <a href="chemo/">Open</a>
-          </article>
-          <article class="stock-item">
-            <span>Smoke dried</span>
-            <strong>Kawa Daun</strong>
-            <p>Smoked coffee leaf decoction from the Minangkabau highlands of West Sumatra.</p>
-            <a href="kawa-daun/">Open</a>
-          </article>
-          <article class="stock-item">
-            <span>Fallen leaf</span>
-            <strong>Kuti</strong>
-            <p>Sun-dried mature or fallen coffee leaves, usually prepared by decoction.</p>
-            <a href="kuti/">Open</a>
-          </article>
-          <article class="stock-item">
-            <span>Modern methods</span>
-            <strong>Preparation Studies</strong>
-            <p>Temperature, time, decoction, processing, aroma, and consumer perception.</p>
-            <a href="preparation-studies/">Open</a>
-          </article>
+        <div class="content-grid">
+          <a href="chemo/" class="content-card">
+            <h3>Chemo</h3>
+            <p>Ethiopian style preparation</p>
+          </a>
+          <a href="engere/" class="content-card">
+            <h3>Engere</h3>
+            <p>Traditional method</p>
+          </a>
+          <a href="kawa-daun/" class="content-card">
+            <h3>Kawa Daun</h3>
+            <p>Indonesian coffee leaf tea</p>
+          </a>
+          <a href="kuti/" class="content-card">
+            <h3>Kuti</h3>
+            <p>Regional preparation</p>
+          </a>
         </div>
       </div>
     </section>
@@ -94,16 +68,14 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>Brewing</p>
+      <p>Buna Brewing</p>
       <a href="../../">Home</a>
     </div>
   </footer>
 
   <script>
-    function toggleMenu(btn) {
-      var nav = document.getElementById('mainNav');
-      var open = nav.classList.toggle('active');
-      if (btn) btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    function toggleMenu() {
+      document.getElementById('mainNav').classList.toggle('active');
     }
   </script>
 </body>
